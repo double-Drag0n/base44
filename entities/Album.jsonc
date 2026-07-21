@@ -1,0 +1,21 @@
+{
+  "name": "Album",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "cover_image_url": {
+      "type": "string",
+      "title": "Cover Image URL"
+    }
+  },
+  "required": [
+    "title"
+  ]
+}
