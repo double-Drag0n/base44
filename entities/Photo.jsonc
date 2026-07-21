@@ -1,0 +1,43 @@
+{
+  "name": "Photo",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "image_url": {
+      "type": "string",
+      "title": "Image URL"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "default": []
+    },
+    "category": {
+      "type": "string",
+      "title": "Category"
+    },
+    "album_id": {
+      "type": "string",
+      "title": "Album ID"
+    },
+    "likes_count": {
+      "type": "number",
+      "title": "Likes Count",
+      "default": 0
+    }
+  },
+  "required": [
+    "title",
+    "image_url"
+  ]
+}
